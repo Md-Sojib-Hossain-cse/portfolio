@@ -23,7 +23,7 @@ const About = () => {
                     <div className="lg:basis-1/2 w-full">
                         <h3 className="text-xl md:text-2xl lg:text-3xl font-medium text-white">Aspiring Web Developer</h3>
                         <p className="py-3 text-sm lg:text-base text-white">I’m MD SOJIB HOSSAIN, a Junior MERN Stack Developer with a passion for building dynamic and responsive web applications. Eager to apply my skills in real-world projects, I bring creativity, dedication, and a strong foundation in full-stack development.</p>
-                        <div className="py-2 md:py-3 lg:py-4 flex gap-4 md:gap-6 lg:gap-8 items-center">
+                        <div className="py-2 md:py-3 lg:py-4 flex flex-col md:flex-row gap-4 md:gap-6 lg:gap-8 md:items-center">
                             <div className="flex gap-2 md:gap-3 items-center">
                                 <div className="p-3 md:p-4 rounded-lg bg-green-100">
                                     <BiRadioCircleMarked className="text-[#4CAF50] text-2xl md:text-3xl" />
