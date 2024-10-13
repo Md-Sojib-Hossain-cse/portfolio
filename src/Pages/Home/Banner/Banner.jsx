@@ -25,15 +25,15 @@ const Banner = () => {
                         />
                     </p>
                     <p className="py-3 text-white">
-                    Hi, I'm MD SOJIB HOSSAIN, a creative Junior MERN Stack Developer. I love turning ideas into seamless web experiences using the power of React, Node.js, Express, and MongoDB. Let's build something amazing together!
+                        Hi, I'm MD SOJIB HOSSAIN, a creative Junior MERN Stack Developer. I love turning ideas into seamless web experiences using the power of React, Node.js, Express, and MongoDB. Let's build something amazing together!
                     </p>
                     <div className="flex gap-2 lg:gap-3 pb-2 mb-2 md:mb-4">
-                        <a href="https://github.com/Md-Sojib-Hossain-cse" target="_blank"  className="text-lg lg:text-xl"><FaGithub className="hover:text-[#4CAF50]"/></a>
-                        <a href="https://www.linkedin.com/in/md-sojib-hossain-059a6b230" target="_blank"  className="text-lg lg:text-xl"><FaLinkedin className="hover:text-[#4CAF50]"/></a>
-                        <a href="https://x.com/MDSOJIBHOS22770" target="_blank"  className="text-lg lg:text-xl"><FaTwitter className="hover:text-[#4CAF50]"/></a>
-                        <a href="https://mail.google.com/mail/u/0/?fs=1&to=sojibhossain.cse@gmail.com&tf=cm" target="_blank"  className="text-lg lg:text-xl"><MdEmail className="hover:text-[#4CAF50]"/></a>
+                        <a href="https://github.com/Md-Sojib-Hossain-cse" target="_blank" className="text-lg lg:text-xl"><FaGithub className="hover:text-[#4CAF50]" /></a>
+                        <a href="https://www.linkedin.com/in/md-sojib-hossain-059a6b230" target="_blank" className="text-lg lg:text-xl"><FaLinkedin className="hover:text-[#4CAF50]" /></a>
+                        <a href="https://x.com/MDSOJIBHOS22770" target="_blank" className="text-lg lg:text-xl"><FaTwitter className="hover:text-[#4CAF50]" /></a>
+                        <a href="https://mail.google.com/mail/u/0/?fs=1&to=sojibhossain.cse@gmail.com&tf=cm" target="_blank" className="text-lg lg:text-xl"><MdEmail className="hover:text-[#4CAF50]" /></a>
                     </div>
-                    <button className="btn btn-ghost bg-[#4CAF50] text-white">Check Out My CV <FaDownload /></button>
+                    <button className="btn btn-ghost bg-[#4CAF50] text-white"><a href="https://drive.google.com/file/d/1sIsWrqitOEsEzYdx4L9OyYKk8JVhnJil/view?usp=sharing" target="_blank" className="flex gap-2">Check Out My CV <FaDownload /></a></button>
                 </div>
             </div>
         </section>

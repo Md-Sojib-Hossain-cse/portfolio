@@ -4,10 +4,15 @@ import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 import { BiRadioCircleMarked } from "react-icons/bi";
 import { MdTimer } from "react-icons/md";
 import { FaDownload } from "react-icons/fa6";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
+
 
 const About = () => {
     return (
-        <section id="about" className="mt-6 min-h-[calc(100vh-76px)]">
+        <section id="about" className="mt-6">
             <SectionTitle heading="About Me"></SectionTitle>
             <div className="hero">
                 <div className="hero-content flex-col lg:flex-row">
@@ -21,9 +26,9 @@ const About = () => {
                         </div>
                     </div>
                     <div className="lg:basis-1/2 w-full">
-                        <h3 className="text-xl md:text-2xl lg:text-3xl font-medium text-white">Aspiring Web Developer</h3>
-                        <p className="py-3 text-sm lg:text-base text-white">I’m MD SOJIB HOSSAIN, a Junior MERN Stack Developer with a passion for building dynamic and responsive web applications. Eager to apply my skills in real-world projects, I bring creativity, dedication, and a strong foundation in full-stack development.</p>
-                        <div className="py-2 md:py-3 lg:py-4 flex flex-col md:flex-row gap-4 md:gap-6 lg:gap-8 md:items-center">
+                        <h3 data-aos="fade-up" data-aos-delay="400" className="text-xl md:text-2xl lg:text-3xl font-medium text-white">Aspiring Web Developer</h3>
+                        <p data-aos="fade-up" data-aos-delay="400" className="py-3 text-sm lg:text-base text-white">I’m MD SOJIB HOSSAIN, a Junior MERN Stack Developer with a passion for building dynamic and responsive web applications. Eager to apply my skills in real-world projects, I bring creativity, dedication, and a strong foundation in full-stack development.</p>
+                        <div data-aos="fade-up" data-aos-delay="400" className="py-2 md:py-3 lg:py-4 flex flex-col md:flex-row gap-4 md:gap-6 lg:gap-8 md:items-center">
                             <div className="flex gap-2 md:gap-3 items-center">
                                 <div className="p-3 md:p-4 rounded-lg bg-green-100">
                                     <BiRadioCircleMarked className="text-[#4CAF50] text-2xl md:text-3xl" />
@@ -44,11 +49,11 @@ const About = () => {
                             </div>
                         </div>
                         <ul className="text-white text-sm lg:text-base mt-2 md:mt-3 lg:mt-4 mb-3 md:mb-4 lg:mb-6">
-                            <li className="flex gap-2 items-center"><IoCheckmarkDoneCircleSharp className="text-[#4CAF50]" />Hands-on experience with React, Node.js, Express, and MongoDB.</li>
-                            <li className="flex gap-2 items-center"><IoCheckmarkDoneCircleSharp className="text-[#4CAF50]" />Built and deployed a few personal and group projects.</li>
-                            <li className="flex gap-2 items-center"><IoCheckmarkDoneCircleSharp className="text-[#4CAF50]" />Continuously learning and growing in web development.</li>
+                            <li data-aos="fade-up" data-aos-delay="400" className="flex gap-2 items-center"><IoCheckmarkDoneCircleSharp className="text-[#4CAF50]" />Hands-on experience with React, Node.js, Express, and MongoDB.</li>
+                            <li data-aos="fade-up" data-aos-delay="400" className="flex gap-2 items-center"><IoCheckmarkDoneCircleSharp className="text-[#4CAF50]" />Built and deployed a few personal and group projects.</li>
+                            <li data-aos="fade-up" data-aos-delay="400" className="flex gap-2 items-center"><IoCheckmarkDoneCircleSharp className="text-[#4CAF50]" />Continuously learning and growing in web development.</li>
                         </ul>
-                        <button className="btn btn-ghost bg-[#4CAF50] text-white">Check Out My CV <FaDownload /></button>
+                        <button className="btn btn-ghost bg-[#4CAF50] text-white"><a href="https://drive.google.com/file/d/1sIsWrqitOEsEzYdx4L9OyYKk8JVhnJil/view?usp=sharing" target="_blank" className="flex gap-2">Check Out My CV <FaDownload /></a></button>
                     </div>
                 </div>
             </div>
